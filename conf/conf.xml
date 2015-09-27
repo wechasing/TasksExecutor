@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <roles>
+        <role name="role1">
+            <hosts>
+                <host>host1</host>
+                <host>host2</host>
+                <host>host3</host>
+            </hosts>
+        </role>
+    </roles>
+</configuration>
