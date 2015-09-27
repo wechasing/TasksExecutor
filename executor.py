@@ -29,6 +29,17 @@ def initEnv():
             env.roledefs[role_name].append(host_name)
             env.hosts.append(host_name)
 
+    user = root.find('user')
+
+    # if user is defined in the conf.xml settle it to the env.user else do nothing
+    if user is not None:
+        env.user = user.text
+
+    print env.user
+
+
+
+
 
 @task
 def executor():
