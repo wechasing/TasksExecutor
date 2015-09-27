@@ -8,5 +8,12 @@
                 <host>host3</host>
             </hosts>
         </role>
+        <role name="role2">
+            <hosts>
+                <host>host1</host>
+                <host>host2</host>
+                <host>host3</host>
+            </hosts>
+        </role>
     </roles>
 </configuration>
