@@ -2,9 +2,9 @@
     read the configuration information from the database
 """
 
-import Configer
+import configer
 
-class DBConfiger(Configer):
+class DBConfiger(configer):
 
     def config(self):
         pass

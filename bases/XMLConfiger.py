@@ -3,11 +3,11 @@
 """
     read the configuration information from the configuration file such as conf.xml
 """
-import Configer
+import configer
 import xml.etree.cElementTree as ET
 from fabric.api import env
 
-class XMLConfiger(Configer):
+class XMLConfiger(configer):
 
     def config(self):
         file_path = "../conf/conf.xml"
