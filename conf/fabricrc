@@ -1,0 +1,4 @@
+#the config file of TaskExecutor(specify the task files of the fabric
+
+[default]
+fabfile = /opt/python27/lib/python2.7/site-packages/tasks
